@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="iconmapa.png" type="image/x-icon">
+    <title>Calculadora de churrasco</title>
+    <script src="mapa.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <section>
+    <h1>Calculadora de churrasco</h1>
+    <form onsubmit="event.preventDefault(); calcular();"> 
+        <p><label for="qtdhomem">&#128104;&#127995;</label>
+            <input type="number" id="qtdhomem" placeholder="Qtd. de homens:"></p>
+
+        <p><label for="qtdmulher">&#128105;&#127995;</label>
+            <input type="number" id="qtdmulher" placeholder="Qtd. de mulheres: "></p>
+
+        <p><label for="qtdcrianca"> &#128103;&#127995;</label>
+            <input type="number" id="qtdcrianca" placeholder="Qtd. de crianças:"></p>
+
+        <p><button type="submit">Calcular</button>
+            <button type="button" onclick="limpar()">Limpar</button></p>
+    </form>
+    <div  id="resultado">
+    </div>
+    </section>
+    
+</body>
+</html>

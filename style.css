@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+section{
+    width: 50%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.estilo_box_resultado{
+    box-shadow: 0 4px 20px rgba(15, 35, 209, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.estilo_p_qtd{
+    font-family: fantasy;
+    color: rgb(5, 17, 17);
+}
